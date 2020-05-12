@@ -1,7 +1,6 @@
 const buttonElement = document.querySelector('button')
 
 buttonElement.onclick = function() {
-
     document.documentElement.style.setProperty('--primary-color', getRandomColor())
 }
 
