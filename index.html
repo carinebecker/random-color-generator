@@ -1,13 +1,25 @@
 <html>
 
 <head>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130320272-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130320272-2');
+    </script>
+
     <title>Random Color Generator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="conteiner">
+    <div class="wrapper">
         <button>Give me a color!</button>
+        <div class="color-hex">  </div>
     </div>
 </body>
 
